@@ -130,3 +130,46 @@ button.continue {
   display: flex;
   justify-content: flex-end;
 }
+
+.banner-container {
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  background-color: #3882f6;
+  color: aliceblue;
+  border-radius: 12px;
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.banner-text {
+  margin: 30px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.button-container {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.banner-button {
+  background-color: #3882f6 !important;
+  border: 2px solid white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 40px;
+}
